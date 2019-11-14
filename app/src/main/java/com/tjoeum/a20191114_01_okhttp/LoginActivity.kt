@@ -12,7 +12,7 @@ class LoginActivity : BaseActivity() {
         setValues()
         setupEvents()
 
-        ServerUtil.postRequestLogin(mContext,"minsung021","1234", null)
+        ServerUtil.postRequestLogin(mContext,"cho881020","qlalfqjsgh!", null)
 
     }
 
