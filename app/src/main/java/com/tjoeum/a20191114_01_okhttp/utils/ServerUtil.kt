@@ -54,6 +54,7 @@ class ServerUtil {
 
                     var body = response.body!!.string()
                     var json: JSONObject = JSONObject(body)
+                    handler?.onResponse(json)
 
 
                     Log.d("서버응답내용", body)
